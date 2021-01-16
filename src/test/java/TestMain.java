@@ -16,9 +16,6 @@ import java.sql.Statement;
  */
 public class TestMain {
 
-    @Autowired
-    TestService testService;
-
     ClassPathXmlApplicationContext applicationContext;
     Connection connection;
 
